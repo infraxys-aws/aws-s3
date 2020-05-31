@@ -1,5 +1,6 @@
 {
   "version": "1.0",
+  "id": "65a059a1-7b29-4c28-bc79-925e10a7ef84",
   "label": "%bucket_name%",
   "autoExpand": false,
   "skipEveryInstanceFiles": false,
@@ -9,6 +10,7 @@
   "infoHtml": "",
   "attributes": [
     {
+      "id": "5955c165-52d2-4403-a9da-20479b8858da",
       "name": "bucket_name",
       "caption": "Bucket name",
       "type": "java.lang.String",
@@ -22,17 +24,17 @@
       "cacheMinutes": 0,
       "referenceFilter": "",
       "referenceValueAttributeName": "",
-      "referenceChildGuidFilter": "",
+      "referenceChildIdFilter": "",
       "newItemsAllowed": false,
       "parseWithVelocity": false,
       "cloneAttribute": true,
-      "autoExport": true,
       "inputPrompt": "",
       "tooltip": "",
       "scope": "Instance",
       "defaultValue": ""
     },
     {
+      "id": "182aa383-fd0f-4fa5-b02c-6965e0c9a5e9",
       "name": "bucket_region",
       "caption": "Region",
       "type": "java.lang.String",
@@ -46,11 +48,10 @@
       "cacheMinutes": 0,
       "referenceFilter": "",
       "referenceValueAttributeName": "",
-      "referenceChildGuidFilter": "",
+      "referenceChildIdFilter": "",
       "newItemsAllowed": true,
       "parseWithVelocity": true,
       "cloneAttribute": true,
-      "autoExport": true,
       "inputPrompt": "",
       "tooltip": "",
       "scope": "Instance",
@@ -59,7 +60,7 @@
   ],
   "files": [
     {
-      "guid": "6fd8425d-58c1-47f4-8738-9ad2b1593812",
+      "id": "6fd8425d-58c1-47f4-8738-9ad2b1593812",
       "filename": "ensure_bucket.sh",
       "includeName": "",
       "menuCaption": "Ensure bucket exists",
@@ -78,7 +79,9 @@
       "menuSeparatorBefore": false,
       "hideFromInstanceActionsMenu": false,
       "hideFromBottomMenu": false,
-      "menuPath": ""
+      "menuPath": "",
+      "dockerImage": "",
+      "customCommand": ""
     }
   ],
   "allowedChildren": []
